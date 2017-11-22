@@ -56,3 +56,5 @@ Mathematica package to check boundedness of general Higgs potentials.
    You can get it from
    
    https://www.cygwin.com/
+   
+   Make sure to call the Mathematica kernel from within Cygwin.
