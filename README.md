@@ -5,7 +5,7 @@ Mathematica package to check boundedness of general Higgs potentials.
 # Prerequisites
 1) Mathematica
 
-   BFB is a Mathematica package and was tested on Mathematica Version 11. It should work for any recent version, however, older version may not be supported due to the lack constructs like associations.
+   BFB is a Mathematica package and was tested on Mathematica Version 11. It should work for any recent version, however, older version may not be supported due to the lack of constructs like associations.
 
 2) Macaulay2
 
