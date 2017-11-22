@@ -5,12 +5,12 @@ Mathematica package to check boundedness of general Higgs potentials.
 # Prerequisites
 1) Mathematica
 
-   BFB is a Mathematica package and was tested on Mathematica Version 11. It should work for any recent version, however, older version may not be supported due to the lack of constructs like associations.
+   BFB is a Mathematica package and was tested on Mathematica version 11. It should work for any recent version, however, older version may not be supported due to the lack of constructs like associations.
 
 2) Macaulay2
 
    For the calculation or resultants BFB currently needs a different computer algebra system called Macaulay2, which was designed especially for problems in algebraic geometry.
-   You can get Macaulay2 at one of the following urls
+   You can get Macaulay2 from one of the following urls:
    
    http://www2.macaulay2.com/Macaulay2/
    
@@ -23,7 +23,7 @@ Mathematica package to check boundedness of general Higgs potentials.
 3) Resultants (Macaulay2 package)
 
    Some distributions of Macaulay2 don't contain all optional package.
-   You can test for the "Resultants" package by calling the M2 interpreter and loading the package.
+   You can test for the package Resultants by calling the M2 interpreter and loading the package.
    ```bash
    > M2
    Macaulay2, version 1.6
@@ -39,7 +39,7 @@ Mathematica package to check boundedness of general Higgs potentials.
    
    https://faculty.math.illinois.edu/Macaulay2/doc/Macaulay2-1.10/share/doc/Macaulay2/Resultants/html/
    
-   You have to put the Resultants.m2 file into the directory
+   You have to put the `Resultants.m2` file into the directory
    ```
    share/Macaulay2
    ```
