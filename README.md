@@ -94,7 +94,7 @@ GetResultant[polynomials, variables, parameters, (options)]
 ```
 
 ## TestPositiviy
-Tests a given Higgs potential for postive (semi)definiteness.
+Tests a given Higgs potential for postive (semi)definiteness on large field values.
 
 Syntax:
 ```
