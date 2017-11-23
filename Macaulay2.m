@@ -127,7 +127,7 @@ RunMacaulay2Script[scriptname_String] := Module[
 		Return[<| "ErrorCode" -> -1 |>];
 	];
 
-	If[FileExistsQ[Macaulay2Binary] == False,
+	If[FileExistsQ[Macaulay2Binary] == False && Run["which "<>Macaulay2Binary] != 0,
 		WriteLine["stderr", "error in RunMacaulay2Script: Macaulay2 binary does not exist"];
 		Return[<| "ErrorCode" -> -1 |>];
 	];
