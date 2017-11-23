@@ -67,7 +67,7 @@ git clone https://github.com/image357/BoundedFromBelow/ .
 ```
 in your download directory of choice.
 Before you can start using BFB, you have to modify the file `config.m` to point to the binary of Macaulay2.
-If you have a system wide installation, than Macaulay2 is probably in your PATH variable.
+If you have a system wide installation then Macaulay2 is probably in your PATH variable.
 ```
 Macaulay2Binary = "M2";
 ```
