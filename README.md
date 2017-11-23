@@ -58,3 +58,45 @@ Mathematica package to check boundedness of general Higgs potentials.
    https://www.cygwin.com/
    
    Make sure to call the Mathematica kernel from within Cygwin.
+
+
+# Install
+To install BFB download the whole repository as a .zip file or use
+```bash
+git clone https://github.com/image357/BoundedFromBelow/ .
+```
+in your download directory of choice.
+Before you can start using BFB, you have to modify the file `config.m` to point to the binary of Macaulay2.
+If you have a system wide installation, than Macaulay2 is probably in your PATH variable.
+```
+Macaulay2Binary = "M2";
+```
+If not use
+```
+Macaulay2Binary = "/<path to Macaulay2>/bin/M2";
+```
+
+
+# Usage
+Once you have installed BFB you can simply load it into Mathematica via
+```
+Get["/<path to dowload directory>/BFB.m"];
+```
+To see the error log, capture stderr of your Mathematica kernel.
+
+There are currently two top-level functions:
+## GetResultant
+Calculates the resultant of a given system of homogeneous polynomials.
+
+Syntax:
+```
+GetResultant[polynomials, variables, parameters, (options)]
+```
+
+## TestPositiviy
+Test a given Higgs potential for postive (semi)definiteness.
+
+Syntax:
+```
+PositivityTest[potential, variables, (parameters), (options)]
+```
