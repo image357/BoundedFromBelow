@@ -84,7 +84,8 @@ Get["/<path to download directory>/BFB.m"];
 ```
 To see the error log, capture stderr of your Mathematica kernel.
 
-There are currently two top-level functions:
+There are currently two top-level functions.
+Arguments in brackets are optional.
 ## GetResultant
 Calculates the resultant of a given system of homogeneous polynomials.
 
