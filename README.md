@@ -80,7 +80,7 @@ Macaulay2Binary = "/<path to Macaulay2>/bin/M2";
 # Usage
 Once you have installed BFB you can simply load it into Mathematica via
 ```
-Get["/<path to dowload directory>/BFB.m"];
+Get["/<path to download directory>/BFB.m"];
 ```
 To see the error log, capture stderr of your Mathematica kernel.
 
