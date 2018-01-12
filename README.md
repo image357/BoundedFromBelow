@@ -9,7 +9,7 @@ Mathematica package to check boundedness of general Higgs potentials.
 
 2) Macaulay2
 
-   For the calculation or resultants BFB currently needs a different computer algebra system called Macaulay2, which was designed especially for problems in algebraic geometry.
+   For the calculation of resultants BFB currently needs a different computer algebra system called Macaulay2, which was designed especially for problems in algebraic geometry.
    You can get Macaulay2 from one of the following urls:
    
    http://www2.macaulay2.com/Macaulay2/
