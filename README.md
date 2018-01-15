@@ -9,7 +9,7 @@ Mathematica package to check boundedness of general Higgs potentials.
 
 2) Macaulay2
 
-   For the calculation or resultants BFB currently needs a different computer algebra system called Macaulay2, which was designed especially for problems in algebraic geometry.
+   For the calculation of resultants BFB currently needs a different computer algebra system called Macaulay2, which was designed especially for problems in algebraic geometry.
    You can get Macaulay2 from one of the following urls:
    
    http://www2.macaulay2.com/Macaulay2/
@@ -67,7 +67,7 @@ git clone https://github.com/image357/BoundedFromBelow/ .
 ```
 in your download directory of choice.
 Before you can start using BFB, you have to modify the file `config.m` to point to the binary of Macaulay2.
-If you have a system wide installation, than Macaulay2 is probably in your PATH variable.
+If you have a system wide installation then Macaulay2 is probably in your PATH variable.
 ```
 Macaulay2Binary = "M2";
 ```
@@ -80,11 +80,12 @@ Macaulay2Binary = "/<path to Macaulay2>/bin/M2";
 # Usage
 Once you have installed BFB you can simply load it into Mathematica via
 ```
-Get["/<path to dowload directory>/BFB.m"];
+Get["/<path to download directory>/BFB.m"];
 ```
 To see the error log, capture stderr of your Mathematica kernel.
 
-There are currently two top-level functions:
+There are currently two top-level functions.
+Arguments in brackets are optional.
 ## GetResultant
 Calculates the resultant of a given system of homogeneous polynomials.
 
