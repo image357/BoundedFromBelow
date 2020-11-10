@@ -39,6 +39,8 @@ Mathematica package to check boundedness of general Higgs potentials.
    
    https://faculty.math.illinois.edu/Macaulay2/doc/Macaulay2-1.10/share/doc/Macaulay2/Resultants/html/
    
+   **WARNING: Adjust the Macaulay2 version in this link according to the currently stable version!**
+   
    You have to put the `Resultants.m2` file into the directory
    ```
    share/Macaulay2
