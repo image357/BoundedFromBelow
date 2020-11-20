@@ -92,7 +92,7 @@ WriteMacaulay2Script[scriptname_String, outputname_String, polynomials_List, var
 		"loadPackage \"Resultants\"",
 		Macaulay2Field <> listpars <> listvars,
 		"inputpolynomials = " <> listpols,
-		"charpolynomial = Resultant(inputpolynomials, Algorithm=>"<>OptionValue[Algorithm]<>")",
+		"charpolynomial = resultant(inputpolynomials, Algorithm=>\""<>OptionValue[Algorithm]<>"\")",
 		"\"" <> outputname <> "\"" <> " << toString(charpolynomial) << endl << close"
 	};
 
