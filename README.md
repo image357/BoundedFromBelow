@@ -2,6 +2,12 @@
 Mathematica package to check boundedness of general Higgs potentials.
 
 
+# Publications
+* [https://arxiv.org/abs/1802.07976](https://arxiv.org/abs/1802.07976)
+* [DOI: 10.1140/epjc/s10052-018-5893-y](https://doi.org/10.1140/epjc/s10052-018-5893-y)
+* [Thesis](http://www.teco.edu/~koepke/mastersthesis.pdf)
+
+
 # Prerequisites
 1) Mathematica
 
@@ -22,8 +28,8 @@ Mathematica package to check boundedness of general Higgs potentials.
 
 3) Resultants (Macaulay2 package)
 
-   Some distributions of Macaulay2 don't contain all optional package.
-   You can test for the package Resultants by calling the M2 interpreter and loading the package.
+   Some distributions of Macaulay2 don't contain all optional packages.
+   You can test for the package `Resultants` by calling the M2 interpreter and loading the package.
    ```bash
    > M2
    Macaulay2, version 1.6
@@ -37,7 +43,7 @@ Mathematica package to check boundedness of general Higgs potentials.
    
    If you don't have the package installed you can get it from
    
-   https://faculty.math.illinois.edu/Macaulay2/doc/Macaulay2-1.10/share/doc/Macaulay2/Resultants/html/
+   https://faculty.math.illinois.edu/Macaulay2/doc/Macaulay2-1.6/share/doc/Macaulay2/Resultants/html/
    
    **WARNING: Adjust the Macaulay2 version in this link according to the currently stable version!**
    
@@ -65,7 +71,7 @@ Mathematica package to check boundedness of general Higgs potentials.
 # Install
 To install BFB download the whole repository as a .zip file or use
 ```bash
-git clone https://github.com/image357/BoundedFromBelow/ .
+git clone https://github.com/image357/BoundedFromBelow.git
 ```
 in your download directory of choice.
 Before you can start using BFB, you have to modify the file `config.m` to point to the binary of Macaulay2.
@@ -84,7 +90,11 @@ Once you have installed BFB you can simply load it into Mathematica via
 ```
 Get["/<path to download directory>/BFB.m"];
 ```
-To see the error log, capture stderr of your Mathematica kernel.
+To see the error log, capture stderr of your Mathematica kernel, i.e. in your terminal of choice type
+```bash
+mathematica
+```
+and run your notebooks as usual.
 
 There are currently two top-level functions.
 Arguments in brackets are optional.
