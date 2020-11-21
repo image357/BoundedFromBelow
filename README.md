@@ -113,3 +113,6 @@ Syntax:
 ```
 PositivityTest[potential, variables, (parameters), (options)]
 ```
+
+## Example Notebook
+As a starting point you can have a look at `Test.nb`.
