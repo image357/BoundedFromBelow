@@ -5,7 +5,7 @@ Mathematica package to check boundedness of general Higgs potentials.
 # Publications
 * [https://arxiv.org/abs/1802.07976](https://arxiv.org/abs/1802.07976)
 * [DOI: 10.1140/epjc/s10052-018-5893-y](https://doi.org/10.1140/epjc/s10052-018-5893-y)
-* [Thesis](http://www.teco.edu/~koepke/mastersthesis.pdf)
+* [Thesis](http://www.teco.edu/~koepke/mastersthesis.pdf) ([alternative upload](https://www.dropbox.com/s/py3c28ilpisphwb/Mastersthesis.pdf?dl=0))
 
 
 # Prerequisites
