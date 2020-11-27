@@ -106,6 +106,11 @@ NumericalPositivityTest[potential_, variables_, opts:OptionsPattern[]] := Module
 	];
 
 	charpolynomial = retval[["Resultant"]];
+	Do[
+		polynomials[[ii]] = Rationalize[polynomials[[ii]], OptionValue[RationalAccuracy]];
+		,
+		{ii, 1, Length[polynomials]}
+	];
 
 	(* find real eigenvalues / roots of the charactersitic polynomial *)
 	reigval = eigvalpardummy /. FindInstance[charpolynomial == 0, eigvalpardummy, Reals, Exponent[charpolynomial, eigvalpardummy]];
