@@ -11,7 +11,7 @@ Mathematica package to check boundedness of general Higgs potentials.
 # Prerequisites
 1) Mathematica
 
-   BFB is a Mathematica package and was tested on Mathematica version 11. It should work for any recent version, however, older version may not be supported due to the lack of constructs like associations.
+   BFB is a Mathematica package and was tested on Mathematica version 11. It should work for any recent version, however, older versions may not be supported due to the lack of constructs like associations.
 
 2) Macaulay2
 
@@ -116,4 +116,4 @@ PositivityTest[potential, variables, (parameters), (options)]
 
 ## Example Notebook
 As a starting point you can have a look at `Test.nb`.  
-Also, consider reading through the [open](https://github.com/image357/BoundedFromBelow/issues) and [closed](https://github.com/image357/BoundedFromBelow/issues?q=is%3Aissue+is%3Aclosed) issues for some useful examples and dicsussions.
+Also, consider reading through the [open](https://github.com/image357/BoundedFromBelow/issues) and [closed](https://github.com/image357/BoundedFromBelow/issues?q=is%3Aissue+is%3Aclosed) issues for some useful examples and discussions.
