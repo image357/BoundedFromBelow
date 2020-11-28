@@ -115,4 +115,5 @@ PositivityTest[potential, variables, (parameters), (options)]
 ```
 
 ## Example Notebook
-As a starting point you can have a look at `Test.nb`.
+As a starting point you can have a look at `Test.nb`.  
+Also, consider reading through the [open](https://github.com/image357/BoundedFromBelow/issues) and [closed](https://github.com/image357/BoundedFromBelow/issues?q=is%3Aissue+is%3Aclosed) issues for some useful examples and dicsussions.
